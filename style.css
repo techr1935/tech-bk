@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page-TO ELEGANCE ELYSIUM</title>
+    <style>
+        /* Styles for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #C70039;
+            color: #5FD404;
+            padding: 20px;
+            text-align: center;
+        }
+        header a {
+            color: #D4D104;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+        }
+        footer h2, footer h3, footer h4, footer h5 {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="about us.html">About Us</a>
+        <a href="services.html">Services offered</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="stylists.html">Stylists Panel</a>
+    </header>
+    <section>
+        <h1>WELCOME TO ELEGANCE ELYSIUM</h1>
+    </section>
+    <footer>
+        <h2>The sense of sophistication, beauty, and tastefulness</h2>
