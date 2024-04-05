@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* Styles for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #DF1310;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #4BDF10;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #DF1010;
+            text-decoration: none;
+            padding: 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #8ADF10;
+            color: #C70039;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Styles for the media */
+        .media {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+        }
+        video, audio {
+            width: 300px;
+        }
+        .graphic {
+            width: 300px;
+        }
+        .animation {
+            width: 300px;
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+<a href="home page.html">homepage</a>
+<a href="about us.html">about</a>
+<a href="services.html">services</a>
+<a href="panel of technicians.html">panel of technicians</a>    
+<h1>multimedia</h1>
+ </header>
+ <nav>
+ <a href="#video">Video</a>
+        <a href="#audio">Audio</a>
+        <a href="#graphic">Graphic</a>
+        <a href="#animation">Animation</a>
+        <a href="#media">Media</a>
+    </nav>
+    <section id="video" class="media">
+        <video controls>
+            <source src="laptop.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section id="audio" class="media">
+        <audio controls>
+            <source src="shout.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    <section id="graphic" class="media">
+        <img src="laptop.jpg" alt="Graphic" class="graphic">
+    </section>
+    <section id="animation" class="media">
+        <img src="animation.gif" alt="Animation" class="animation">
+    </section>
+    <section id="media" class="media">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <footer>
+        <p>&copy; multimedia 2024</p>
+    </footer>
+</body>
+</html>
